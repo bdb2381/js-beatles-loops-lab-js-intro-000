@@ -5,20 +5,21 @@ function theBeatlesPlay(musicians, instruments){
 
       emptyArray.push( `${musicians[num]} plays ${instruments[num]}` )
       //console.log(emptyArray)    use log to see function in action to debug
-  }
-
+    }
 return emptyArray
 
 }
 
+
 var johnFactsArray = []
+
 function johnLennonFacts(johnFactsArray){
   let counter = 0
   let newFactsArray = []
 
   while (counter <= 20){
      newFactsArray.push(johnFactsArray[num] + "!!!")
-    console.log(newFactsArray)
+  //  console.log(newFactsArray)
     counter += 1
   }
 
