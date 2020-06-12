@@ -21,7 +21,7 @@ function johnLennonFacts(johnFactsArray){
   }
 
 
-return johnLennonFacts
+return excitedJohnFactsArray
 
 
 }
