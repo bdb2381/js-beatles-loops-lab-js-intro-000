@@ -45,10 +45,13 @@ function iLoveTheBeatles(number){
   var emptyLoveArray = []
   do {
       emptyLoveArray.push("I love the Beatles!")
+      if (number === 8){
+        return emptyLoveArray
+      }
+
+
     }
     while (number++ < 15)
-    if (number === 8){
-      return emptyLoveArray
-    }
+    
   return emptyLoveArray
 }
