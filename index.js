@@ -13,3 +13,5 @@ function theBeatlesPlay(musicians, instruments){
 return empty
 
 }
+
+theBeatlesPlay(musc, inst)
