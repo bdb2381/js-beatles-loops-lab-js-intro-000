@@ -29,6 +29,15 @@ function johnLennonFacts(johnFactsArray){
 return newFactsArray
 }
 
+/////////////
+let i = 0;
+ 
+function incrementVariable() {
+  i = i + 1;
+  return i;
+}
+
+
 
 var number = 1
 
@@ -38,7 +47,7 @@ do {
   let emptyArray = []
    [`"I love the Beatles!"`, ...emptyArray]
 }while
-  increment number, check if number < 15
+  incrementVariable(number) < 15
 
   return arrayOfIloveBeatles
 }
