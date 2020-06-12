@@ -5,10 +5,9 @@ var instruments = ["guitar", "horn", "Piano"]
 
 function theBeatlesPlay(musicians, instruments){
   for (let num = 0; num < 10; num+=1){
-      var holdingPlace = [`${musicians[num]} plays ${instruments}` ]
       var emptyArray = []
-      [...emptyArray, holdingPlace]
-
+      emptyArray[num] = [`${musicians[num]} plays ${instruments}` ]
+    
 
   }
 return emptyArray
