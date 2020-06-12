@@ -9,7 +9,7 @@ function theBeatlesPlay(musicians, instruments){
 return emptyArray
 
 }
-
+theBeatlesPlay(name, item)
 
 var johnFactsArray = []
 
