@@ -15,7 +15,7 @@ return emptyArray
 function johnLennonFacts(johnFactsArray){
   let counter = 0
   while (counter <= johnFactsArray){
-    [...johnFactsArray, "!!!"]
+    excitedJohnFactsArray.push("!!!")
     console.log(johnFactsArray)
     counter += 1
   }
