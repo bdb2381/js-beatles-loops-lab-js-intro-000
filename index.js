@@ -5,7 +5,7 @@ var empty = []
 
 function theBeatlesPlay(musicians, instruments){
   for (let num = 0; num < 10; num+=1){
-      console.log (`${musicians[i]} plays ${instruments}` )
+      console.log (`${musicians[num]} plays ${instruments}` )
 
 
   }
