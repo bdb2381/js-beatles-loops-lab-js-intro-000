@@ -26,8 +26,20 @@ function johnLennonFacts(johnFactsArray){
     arrayPos++
   }
 
-
 return newFactsArray
-
-
 }
+
+
+var number = 1
+
+function iLoveTheBeatles(number){
+//create and store an emtpy var
+do {
+  let emptyArray = []
+   [`"I love the Beatles!"`, ...emptyArray]
+}while 
+  increment number, check if number < 15
+
+  return arrayOfIloveBeatles
+}
+
