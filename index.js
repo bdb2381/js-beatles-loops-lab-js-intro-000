@@ -16,7 +16,7 @@ function johnLennonFacts(johnFactsArray){
   let counter = 0
   while (counter <= johnFactsArray){
     [...johnFactsArray, "!!!"]
-    console.log(johnFactsArray
+    console.log(johnFactsArray)
     counter += 1
   }
 
