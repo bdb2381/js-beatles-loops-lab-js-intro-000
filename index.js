@@ -42,12 +42,12 @@ function incrementVariable() {
 var number = 1
 
 function iLoveTheBeatles(number){
-//create and store an emtpy var
-var emptyLoveArray = []
-do {
+  var emptyLoveArray = []
+  do {
+      emptyLoveArray.push("I love the Beatles!")
+    } 
 
-   emptyLoveArray.push("I love the Beatles!")
-} while (number++ < 15)
+    while (number++ < 15)
 
   return emptyLoveArray
 }
