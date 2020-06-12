@@ -21,7 +21,7 @@ function johnLennonFacts(johnFactsArray){
 
   while (counter > 0){
      newFactsArray.push(johnFactsArray[arrayPos] + "!!!")
-  //  console.log(newFactsArray)
+    console.log(newFactsArray)
     counter -= 1
     arrayPos++
   }
