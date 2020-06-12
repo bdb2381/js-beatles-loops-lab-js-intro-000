@@ -13,7 +13,7 @@ return emptyArray
 
 
 function johnLennonFacts(johnFactsArray){
-  counter = 0
+  let counter = 0
   while (counter <= johnFactsArray){
     [...johnFactsArray, "!!!"]
     console.log(johnFactsArray
