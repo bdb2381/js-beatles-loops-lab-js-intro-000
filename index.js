@@ -46,11 +46,9 @@ function iLoveTheBeatles(number){
   do {
       emptyLoveArray.push("I love the Beatles!")
     }
+    while (number++ < 15)
     if (number === 8){
       return emptyLoveArray
     }
-
-    while (number++ < 15)
-
   return emptyLoveArray
 }
