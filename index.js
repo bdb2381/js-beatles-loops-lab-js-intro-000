@@ -7,7 +7,7 @@ var emptyArray = []
 function theBeatlesPlay(musicians, instruments){
   for (let num = 0; num < musicians.length; num+=1){
 
-      emptyArray[num] = [`${musicians[num]} plays ${instruments[num]}` ]
+      [...emptyArray, `${musicians[num]} plays ${instruments[num]}` ]
   }
 
 return emptyArray
