@@ -5,7 +5,7 @@
 var emptyArray = []
 
 function theBeatlesPlay(musicians, instruments){
-  for (let num = 0; num <= musicians; num+=1){
+  for (let num = 0; num <= 4; num+=1){
 
       emptyArray.unshift( `${musicians[num]} plays ${instruments[num]}` )
       console.log(emptyArray)
