@@ -20,8 +20,8 @@ function johnLennonFacts(johnFactsArray){
     counter+=1
   }
 
-    
+
   }
 
-  
+
 }
