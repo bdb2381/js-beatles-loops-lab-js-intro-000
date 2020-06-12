@@ -9,18 +9,17 @@ function theBeatlesPlay(musicians, instruments){
 return emptyArray
 
 }
-theBeatlesPlay(name, item)
 
 var johnFactsArray = []
 
 function johnLennonFacts(johnFactsArray){
-  let counter = 0
+  let counter = johnFactsArray.length
   let newFactsArray = []
 
-  while (counter <= 20){
+  while (counter > 0){
      newFactsArray.push(johnFactsArray[num] + "!!!")
   //  console.log(newFactsArray)
-    counter += 1
+    counter -= 1
   }
 
 
