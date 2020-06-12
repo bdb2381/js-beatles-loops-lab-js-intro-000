@@ -30,14 +30,6 @@ return newFactsArray
 }
 
 /////////////
-let i = 0;
-
-function incrementVariable() {
-  i = i + 1;
-  return i;
-}
-
-
 
 var number = 1
 
@@ -45,7 +37,7 @@ function iLoveTheBeatles(number){
   var emptyLoveArray = []
   do {
       emptyLoveArray.push("I love the Beatles!")
-      console.log(emptyLoveArray)
+      console.log(emptyLoveArray) //used to debug to see what is happening, if anything
       number += 1
     }
     while ( number < 15)
