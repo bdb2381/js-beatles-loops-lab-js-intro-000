@@ -37,9 +37,8 @@ function iLoveTheBeatles(number){
 do {
   let emptyArray = []
    [`"I love the Beatles!"`, ...emptyArray]
-}while 
+}while
   increment number, check if number < 15
 
   return arrayOfIloveBeatles
 }
-
