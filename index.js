@@ -10,7 +10,9 @@ return emptyArray
 
 }
 
-var johnFactsArray = []
+
+
+//var johnFactsArray = []
 
 function johnLennonFacts(johnFactsArray){
   let counter = johnFactsArray.length
