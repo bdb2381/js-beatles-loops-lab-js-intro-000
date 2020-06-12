@@ -16,7 +16,7 @@ function johnLennonFacts(johnFactsArray){
   let counter = 0
   let newFactsArray = []
 
-  while (counter <= johnFactsArray){
+  while (counter <= johnFactsArray.length){
      newFactsArray.push(johnFactsArray[num] + "!!!")
     console.log(newFactsArray)
     counter += 1
