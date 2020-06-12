@@ -48,5 +48,5 @@ do {
    emptyArray.push(`"I love the Beatles!"`)
 } while (incrementVariable(number) < 15)
 
-  return arrayOfIloveBeatles
+  return emptyArray
 }
