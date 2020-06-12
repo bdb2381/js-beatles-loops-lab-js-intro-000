@@ -10,6 +10,6 @@ function theBeatlesPlay(musicians, instruments){
 
 
   }
-return emptyArray
+return emptyArray[]
 
 }
