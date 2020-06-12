@@ -11,7 +11,7 @@ return emptyArray
 
 }
 
-
+var johnFactsArray = []
 function johnLennonFacts(johnFactsArray){
   let counter = 0
   while (counter <= johnFactsArray){
