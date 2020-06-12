@@ -44,9 +44,9 @@ var number = 1
 function iLoveTheBeatles(number){
 //create and store an emtpy var
 do {
-  let emptyArray = []
-   emptyArray.push(`"I love the Beatles!"`)
+  let emptyLoveArray = []
+   emptyLoveArray.push(`"I love the Beatles!"`)
 } while (incrementVariable(number) < 15)
 
-  return emptyArray
+  return emptyLoveArray
 }
