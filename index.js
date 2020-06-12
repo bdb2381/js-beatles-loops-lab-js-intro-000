@@ -46,7 +46,7 @@ function iLoveTheBeatles(number){
 var emptyLoveArray = []
 do {
 
-   emptyLoveArray.push("I love the Beatles...")
+   emptyLoveArray.push("I love the Beatles!")
 } while (number++ < 15)
 
   return emptyLoveArray
