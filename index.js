@@ -7,9 +7,9 @@ function theBeatlesPlay(musicians, instruments){
   for (let num = 0; num < 10; num+=1){
       empty = console.log (`${musicians[num]} plays ${instruments}` )
 
-      return empty
+      
 
   }
-
+return empty
 
 }
